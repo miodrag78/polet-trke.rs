@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RMYYM3XTZM"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-RMYYM3XTZM');
+    </script>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+        body {
+            background-size: auto;
+            background-repeat: no-repeat;
+            background-attachment: fixed;            
+            position: fixed;
+            background-color: orange;
+        }
+        .main-row {
+            position: relative;
+            top: 100px;
+            height: 90vh;
+            position: fixed;
+        }
+        .first-column {
+            height: fit-content;
+            color: black;
+            background: #FFD700;
+            transition: background 0.3s, color 0.3s; /* Tranzicija za postepeno menjanje boje */
+        }
+        .first-column:hover {
+            background: blue;
+            color: yellow; /* Promenite na boju teksta koju želite kada je hover aktiviran */
+        }
+        .second-column-box {
+            max-height: 361px;
+            overflow-y: auto;  /* to be scrollable */
+        }
+        .previous-race-box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            border: 1px solid black;
+            margin-bottom: 20px;
+            margin-right: 20px;
+            border-radius: 20px;
+            padding: 20px 10px 20px 10px;
+            color: black;
+            background: #FFD700;
+            transition: background 0.3s, color 0.3s; /* Tranzicija za postepeno menjanje boje */
+        }
+        .previous-race-box:hover{
+            background: blue;
+            color: yellow; /* Promenite na boju teksta koju želite kada je hover aktiviran */
+        }
+        .previous-race-box-last-blank {
+            height: 150px;
+        }
+        .previous-race-title {
+            width: fit-content;
+        }
+    
+        .previous-race-body {
+            text-align: justify;
+        }
+    
+        .previous-race-body p {
+            white-space: normal; /* Dodali smo normal umesto nowrap */
+            margin: 10px 0;
+            display: inline; /* Postavljamo paragrafe kao inline elemente */
+        }
+    </style>
+    
+    
+    
+    
+    <title>Sportsko  Udruženje Polet</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">POČETNA</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="about.html">O NAMA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="news.html">VESTI DOGADJAJI DEŠAVANJA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery.html">GALERIJA</a>
+                        </li>
+                       
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">KONTAKT</a>
+                        </li>
+        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="row main-row">
+            <!-- Column for the next reace: -->
+            <div class="col-md-6 first-column">
+                <h4 class="text-center">NAJAVA NAREDNE TRKE</h4>
+                <h6 class="text-center">"3. Humanitarna trka- Trčimo za  Natašu"</h6>
+                <h6 class="text-center">11.05.2024.god</h6>
+                <h6 class="text-center">MESTO:</h6>
+                <h6 class="text-center">Futog (nasip kod ribnjaka - bife “Sale dva”)</h6>
+                <p>KONTAKT</p>
+                <p>Tel.: 061 140 2714</p>
+                <p>FB: Polet Veternik</p>
+                <p class="d-inline-block">email: xenrun@gmail.com</p>
+                <a href="nextevent.html" class="text-center d-inline-block ml-2">opširnije</a>
+
+            </div>
+            <!-- Column for the past races:  -->
+            <div class="col-md-6 second-column">
+                <div class="col second-column-box">
+                    <div class="previous-race-box">
+                        <div class="previous-race-title text-center">
+                            
+                            <p>23.April 2022.godine</p>
+                        </div>
+                        <div class="previous-race-body">
+                            <p>"Humanitarna liga trčanja"</p>
+                            <p>Liga Trčanja je održana kako bi animirala učesnike svih uzrasnih kategorija, sportiste i
+                                rekreativce, da spoje zdravo i humano. Održane su trke na: 1km, 3km ili 5km. 
+                                Kotizacija za takmičenje  bila je donacija odeće za štićenike Doma iz Veternika.</p>
+                        </div>
+                    </div>
+                    <div class="previous-race-box">
+                        <div class="previous-race-title text-center">
+                            
+                            <p> 28.Maj 2022.godine</p>
+                        </div>
+                        <div class="previous-race-body">
+                            <p>"Prva trka za decu i roditelje "Za moju mamu ja sam pobednik"</p>
+                            <p>U okviru zadatka Asocijacije "Sport za sve Srbije" koji se realizovao u svetu i kod nas "Movie Week" SU"Polet" je osmislio trku za mame i decu.
+                            Cilj naše trke sa kojom smo se takmičili bio je da svaka mama napravi jedinstvenu medalju za svoje dete i uruči mu je prilikom ulaska u cilj. Iako je vreme bilo kišovito odazvalo se 15-ak roditelja sa decom. Proglašenje pobednika uz piće bilo je organizovano na čardi kod skele u Futogu.
+                        </p>
+                        </div>
+                    </div>
+                    <div class="previous-race-box">
+                        <div class="previous-race-title text-center">
+                            
+                            <p> 22.April 2023.godine</p>
+                        </div>
+                        <div class="previous-race-body">
+                            <p>"2.Humanitarna trka-Trčimo za Boru"</p>
+                            <p>U nedelju 22. aprila 2023. godine održana humanitarna trka bila je organizovana za decu
+                                školskog uzrasta (500m), kao i za odrasle (3km i 5km). Kotizacija za učešće u trci namenjena
+                                su dečaku iz  Veternika Borislavu Stanojeviću koji boluje od cerebralne paralize i novčana sredstva su  mu potrebna za dalje lečenje.</p>
+                        </div>
+                    </div>
+                    <div class="previous-race-box">
+                        <div class="previous-race-title text-center">
+                            
+                            <p>10.Jun 2023.godine</p>
+                        </div>
+                    <div class="previous-race-body">
+                        <p>"1. Poletova ženska trka"</p>
+                        <p>Događaj je bio na mirnom delu nasipa kod ribnjaka. 20-ak žena je trčalo trku na 1,5 km i 3 km. Prvoplasiranim učesnicama dodeljene su Poletove medalje i pokloni sponzora. Nakon proglašenja svi prisutni su se počastili slanišima i slatkišima što su donele prijavljene takmičarke prilikom preuzimanja startnog broja, a umesto uplate kotizacije za trku.
+                        </p>
+                    </div>
+                </div>    
+                <div class="previous-race-box">
+                    <div class="previous-race-title text-center">
+                        
+                        <p>15.Oktobar 2023.godine</p>
+                    </div>
+                <div class="previous-race-body">
+                    <p>"Druga trka za decu i roditelje -Za moju mamu ja sam pobednik"</p>
+                    <p>Tog kišovitog dana okupilo se oko 15-ak roditelja sa decom koja su trčala 200 m i 500 m. Cilj trke je bio da se svako dete oseti pobednikom. Mama je imala zadatak da napravi medalju za svog takmičara i dodeli mu poklon nakon ulaska u cilj. Naravno, bili su proglašeni i prvoplasirani takmičari posebnom Poletovom medaljom. Nakon dečije trke trčali su i roditelji (1,5 km), a deca su navijala. Nakon obe trke prisutni su se ugrejali u video "Sale dva" uz sokić i keksiće..</p>
+                </div>
+                </div>
+                    <div class="previous-race-box">
+                        <div class="previous-race-title text-center">
+                            
+                            <p>29.Oktobar 2023.godine</p>
+                        </div>
+                        <div class="previous-race-body">
+                            <p>"1. Poletov polumaraton -Trčimo za Natašu"</p>
+                            <p>U nedelju 29. oktobra 2023. godine održan je prvi polumaraton u Futogu. Učesnici su trčali
+                            na deonicama od: 7km, 14km ili 21km (3 kruga). Kotizacija za učešće u trci namenjena su devojčici iz
+                            Futoga Nataši Minić koja boluje od cerebralne paralize i novčana sredstva su joj potrebna za dalje
+                            lečenje.</p>
+                        </div>
+                    </div>
+                </div> <!-- Close .col second-column-box -->
+            </div> <!-- Close .col-md-6 second-column -->
+        </div> <!-- Close .row main-row -->
+    </div> <!-- Close .container -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>    
+</body>
+</html>

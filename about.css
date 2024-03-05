@@ -1,0 +1,150 @@
+Resetovanje granica za article, header i section unutar onama-section */
+/* Resetovanje granica za article, header i section unutar onama-section */
+.onama-section article,
+.onama-section header,
+.onama-section section {
+  margin: 0;
+}
+
+/* Povećana specifičnost za .onama-article */
+.onama-section .onama-content .onama-article {
+  margin: 0;
+}
+
+/* Fleksibilni kontejner sa kolonama */
+.row-flex {
+  display: flex;
+  flex-direction: row; /* Promenjeno u row umesto column */
+}
+
+/* Stilovi za fleksibilnu kolonu sa formom */
+.flex-column-form {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 0 20px; /* Prilagođena margina samo za ovu kolonu */
+}
+
+/* Stilovi za otvaranje vremena i kontakt-adresu */
+.opening-time,
+.contact-adress {
+  flex: 1;
+  margin: 0 20px; /* Prilagođena margina samo za ove kolone */
+  font-size: 1.2em;
+}
+
+/* Stilovi za paragrafe u formi */
+.form-group p {
+  font-size: 1.2em;
+}
+
+/* Stilovi za vreme otvaranja i kontakt-adresu */
+.opening-time p span,
+.contact-adress p span {
+  display: block;
+  font-size: 15px;
+  text-align: center;
+}
+
+/* Stilizacija naslova u fleksibilnom kontejneru */
+.row-flex h3 {
+  font-size: 25px;
+  text-align: center;
+}
+
+/* Dodatni stilovi za paragrafe */
+.form-group p,
+.opening-time p span,
+.contact-adress p span {
+  font-size: 15px;
+  text-align: center;
+}
+
+/* Dodatak za eliminaciju margina i paddinga na sekciji i naslovima */
+section,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+/* Promena boje teksta na hover za h1 */
+h1:hover {
+  color: red;
+}
+
+/* Stilovi za section-about i onama-section */
+.section-about,
+.onama-section {
+  background-color: pink;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Dodatni stilovi za onama-section */
+.onama-section {
+  background-color: yellow;
+  color: black;
+}
+
+/* Povećana specifičnost za .onama-article */
+body .section-about .onama-section .onama-content .onama-article {
+  margin: 0 !important;
+}
+
+/* Dodatna specifičnost za .onama-section */
+body .section-about .onama-section {
+  background-color: yellow !important;
+  color: black !important;
+}
+
+/* Povećana specifičnost za .row-flex h3 */
+body .section-about .onama-section .row-flex h3 {
+  font-size: 25px !important;
+  text-align: center !important;
+}
+
+/* Povećana specifičnost za .form-group p */
+body .section-about .onama-section .form-group p {
+  font-size: 1.2em !important;
+}
+
+/* Povećana specifičnost za .opening-time, .contact-adress */
+body .section-about .onama-section .opening-time,
+body .section-about .onama-section .contact-adress {
+  flex: 1 !important;
+  margin: 0 20px !important;
+  font-size: 1.2em !important;
+}
+
+/* Povećana specifičnost za .opening-time p span, .contact-adress p span */
+body .section-about .onama-section .opening-time p span,
+body .section-about .onama-section .contact-adress p span {
+  display: block !important;
+  font-size: 15px !important;
+  text-align: center !important;
+}
+
+/* Povećana specifičnost za .form-group p, .opening-time p span, .contact-adress p span */
+body .section-about .onama-section .form-group p,
+body .section-about .onama-section .opening-time p span,
+body .section-about .onama-section .contact-adress p span {
+  font-size: 15px !important;
+  text-align: center !important;
+}
+header{
+background-color: aquamarine;
+
+}
+.onama-container{
+background-color: brown;
+
+}
+ul {
+  list-style-type: none; /* Sakriva crne tačke */
+}

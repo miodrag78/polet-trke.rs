@@ -1,0 +1,80 @@
+/* Uvoz fonta */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+/* Resetovanje stilova za HTML elemente */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Stilizacija body elementa */
+body {
+  background-color: #ffd700; /* Žuta boja */
+  font-family: "Poppins", Arial, sans-serif; /* Korišćenje fonta Poppins kao prve opcije, a ako nije dostupan, koristi Arial ili sans-serif */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Stilizacija header elementa */
+header {
+  background-color: orange;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0; /* Dodavanje više prostora za bolji vizuelni efekat */
+  margin: 0;
+}
+
+/* Stilizacija main elementa */
+main {
+  flex: 1; /* Koristi preostali prostor vertikalno */
+  background-color: #ffd700; /* Žuta boja */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centriranje sadržaja horizontalno */
+}
+
+/* Stilizacija naslova */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal; /* Vraćanje na podrazumevani font */
+  text-align: center; /* Centriranje naslova horizontalno */
+}
+
+/* Stilizacija paragrafa */
+p {
+  margin-bottom: 10px; /* Dodavanje malo više prostora ispod paragrafa */
+}
+
+/* Stilizacija linkova */
+a {
+  color: #007bff; /* Plava boja za linkove */
+  text-decoration: none; /* Uklanjanje podvlake ispod linkova */
+}
+
+a:hover {
+  text-decoration: underline; /* Dodavanje podvlake ispod linkova prilikom prelaska preko njih mišem */
+}
+
+/* Stilizacija lista */
+ul {
+  list-style-type: none; /* Uklanjanje stilizacije tipa liste */
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px; /* Dodavanje prostora između stavki liste */
+}
+
+/* Stilizacija kontejnera u footeru */
+/* Stilizacija kontejnera u footeru */
+.container-footer {
+  background-color: orange; /* Promena boje pozadine kontejnera u narandžastu */
+  padding: 20px; /* Dodajemo prostor unutar footera */
+  box-sizing: border-box; /* Osigurava da padding ne utiče na širinu */
+}
